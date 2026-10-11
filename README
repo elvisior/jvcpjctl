@@ -14,3 +14,14 @@ positional arguments:
 options:
   -h, --help  show this help message and exit
   --ip IP     projector IP address (default: 192.168.1.200)
+
+Example usage:
+
+python .\jvcpjctl.py --ip 192.168.1.200
+Projector at 192.168.1.200: Standby (off)
+
+python .\jvcpjctl.py --ip 192.168.1.200 on
+Projector at 192.168.1.200: power on command accepted
+
+python .\jvcpjctl.py --ip 192.168.1.200 off
+Projector at 192.168.1.200: power off command accepted
