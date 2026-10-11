@@ -1,0 +1,16 @@
+Created by openclaw -> lm studio -> qwen3.8-27b
+
+Might work for any jvc projector that listens on tcp port 20554.
+Let me know if it does.
+
+python .\jvcpjctl.py -h
+usage: jvcpjctl [-h] [--ip IP] [{on,off}]
+
+Control a JVC DLT-20 (DLA) projector over LAN.
+
+positional arguments:
+  {on,off}    power on / off (default: query status)
+
+options:
+  -h, --help  show this help message and exit
+  --ip IP     projector IP address (default: 192.168.1.200)
